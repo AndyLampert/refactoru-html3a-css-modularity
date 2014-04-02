@@ -1,0 +1,112 @@
+/* ADD YOUR STYLES HERE */
+
+html {
+	width: 80%;
+	margin: 0 auto;
+}
+
+tr {
+	border-bottom: 1px solid lightgrey;
+	border-top: 1px solid lightgrey;
+}
+
+.table-main-content {
+	padding: .8em;
+	padding-left: 5em;
+}
+
+tr:first-child,
+tr:last-child {
+	border-bottom: 0;
+	border-top: 0;
+} 
+
+thead {
+	border-bottom: 1px solid lightgrey;
+}
+
+.user-data {
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	padding: 1em;
+	border-bottom: 1px solid lightgrey;
+	border-top: 1px solid lightgrey;
+}
+
+.lrg-data {
+	font-size: 2em;
+}
+
+.sml-data {
+	font-size: .7em;
+	color: lightgrey;
+}
+
+th {
+	text-align: right;
+}
+
+.bar {
+	width: 100%;
+}
+
+.bar tbody tr {
+	border-bottom: 0;
+	border-top: 0;
+}
+
+.bar tbody tr th {
+	padding-right: .8em;
+}
+
+.bar-chart {
+	background-color: #65ACFF;
+	padding: .3em;
+	margin-right: 400px;
+	border-radius: 0 4px 4px 0;
+	color: white;
+}
+
+.lightbox-container {
+	/*position: absolute;*/
+	top: 0;
+	left: 0;
+}
+
+.lightbox {
+	background-color: grey; 
+	position: fixed;
+	height: 100%;
+	width: 100%;
+}
+
+.alert {
+	margin: 10% 20%;
+	border-radius: 5px;
+	background-color: white;
+	position: fixed;
+	padding: 2em;
+}
+
+.button-container {
+}
+
+.button {
+	background-color: red;
+	opacity: .5;
+	color: white;
+	padding: 1em 4em;
+	border-radius: 5px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
