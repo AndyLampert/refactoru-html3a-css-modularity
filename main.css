@@ -94,7 +94,6 @@ th {
 	width: 60%;
 	padding: 2em;
 	padding-bottom: 5em;
-
 }
 
 .button-container {
@@ -115,7 +114,7 @@ th {
 }
 
 .clearfix { 
-  overflow: hidden;
+	overflow: hidden;
 }
 
 .note-from-andrew {
@@ -128,7 +127,26 @@ code {
 	border-radius: 4px;
 }
 
+.user-comment-title {
+	padding-left: 3em;
+}
 
+.nested-comment {
+	margin-left: 3em;
+}
 
+.nested-img {
+	margin-left: 4em;	
+}
 
+.unnested-p {
+	padding-left: 1em;
+}
 
+.nested-p {
+	padding-left: 3.5em;
+}
+
+.nested-user-comment-title {
+	padding-left: 2.5em;
+}
