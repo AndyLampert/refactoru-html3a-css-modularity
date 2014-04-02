@@ -56,13 +56,18 @@ th {
 	border-top: 0;
 }
 
-.bar tbody tr th {
+.bar th {
 	padding-right: .8em;
+}
+
+.bar-chart td {
+	width: 100%;
 }
 
 .bar-chart {
 	background-color: #65ACFF;
-	padding: .3em;
+	padding: .3em 0 .3em .3em;
+	box-sizing: border-box;
 	margin-right: 400px;
 	border-radius: 0 4px 4px 0;
 	color: white;
@@ -82,11 +87,14 @@ th {
 }
 
 .alert {
-	margin: 10% 20%;
+	margin: 10% auto;
 	border-radius: 5px;
 	background-color: white;
-	position: fixed;
+	display: block;
+	width: 60%;
 	padding: 2em;
+	padding-bottom: 5em;
+
 }
 
 .button-container {
@@ -101,10 +109,24 @@ th {
 	float: right;
 }
 
+.user-img {
+	float: left;
+	clear: left;
+}
 
+.clearfix { 
+  overflow: hidden;
+}
 
+.note-from-andrew {
+	padding-bottom: 1em;
+}
 
-
+code {
+	background-color: lightgrey;
+	padding: .2em;
+	border-radius: 4px;
+}
 
 
 
