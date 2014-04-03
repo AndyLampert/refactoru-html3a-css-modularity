@@ -143,6 +143,11 @@ code {
 	padding-left: 1em;
 }
 
+/*bad selector. how do I improve it?*/
+.firstp {
+	padding-left: 4.5em;
+}
+
 .nested-p {
 	padding-left: 3.5em;
 }
